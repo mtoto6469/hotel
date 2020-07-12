@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "B yekan";
+    src: url("fonts/shabnam/Shabnam.woff") format("woff"),url("fonts/shabnam/Shabnam.eot") format("eot"),url("fonts/shabnam/Shabnam.ttf") format("truetype");
+
+}
+
+body{
+    /*margin: 0!important;*/
+
+    background: #f2f2f2f2;
+    font-family: "B yekan";
+    font-size: 15px!important;
+    color:rgba(0,0,0,0.7);
+
+
+
+}
+.hotel{
+    text-align: right;
+}
+.hotel .btn-new{
+    border: 1px solid #00A79D;
+    background: linear-gradient(to bottom right, #00A79D, #01848A);
+    position: relative;
+    padding:10px 30px 10px 40px;
+    color: white;
+    text-shadow: white;
+    font-size: 14px;
+}
+.hotel .btn-new i{
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    font-size: 25px;
+    border-radius: 15px;
+    background: white;
+    padding: 3px;
+    color:#01848A ;
+}
+.wrap-hotel{
+    margin-top: 30px;
+    height: 90vh;
+    background: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: right;
+    padding: 10px;
+}
+.wrap-hotel .into-wrap{
+    border: 1px solid whitesmoke;
+    border-bottom: none;
+    border-top: none;
+    padding: 10px;
+    box-shadow: -1px -1px 2px -2px rgba(0,0,0,0.1);
+    height: 300px;
+    position: relative;
+    /*text-align: center;*/
+}
+.wrap-hotel .into-wrap img{
+    width: 100%;
+    height: 100px;
+}
+.wrap-hotel .into-wrap h2{
+    font-size: 20px;
+    font-family: "B yekan"!important;
+    line-height: normal;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.wrap-hotel .into-wrap h3{
+    font-size: 14px;
+    font-family: "B yekan"!important;
+    line-height: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #191E21;
+}
+.wrap-hotel .into-wrap p,a {
+   font-size: 12px !important;
+text-align: center;
+    color:#191E21;
+}
+.wrap-hotel .into-wrap a{
+    position: absolute;
+    bottom: 20px;
+}
+.wrap-hotel .into-wrap .p{
+
+    word-break:break-all;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 13px!important;
+    color: #191E21;
+}
+ .del{
+    color: #C83142;
+    left: 30px;
+    border: 1px solid #C83142;
+    padding:5px 20px;
+}
+.upd{
+    color: green;
+    right: 30px;
+    border: 1px solid green;
+    padding:5px 20px;
+}
+.blue{
+    color: #3390FF !important;
+}
+
+.hotel-one{
+    text-align: center;
+    background: white;
+    width: 100%;
+    min-height: 230px;
+    position: relative;
+
+}
+.hotel-one img{
+    border: 1px solid #9c27b0;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left:42%;
+    width: 18%;
+    height: 43%;
+
+}
+.hotel-one .des-hotel{
+    width: 88%;
+    height: 160px;
+    background: #9c27b0;
+    position: absolute;
+    border-radius: 8px;
+    top: 21%;
+    left: 6%;
+    padding: 10px;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+    overflow: hidden;
+
+}
+@media only screen and (max-width: 600px) {
+    .hotel-one .des-hotel {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
+.hotel-one .des-hotel .top-des{
+    text-align: center;
+
+}
+.hotel-one .des-hotel .top-des h3{
+    font-weight: bold;
+    font-family: "B yekan";
+    color: white;
+    font-size: 17px!important;
+    word-break:break-all;
+}
+.hotel-one .des-hotel .top-des span{
+    font-family: "B yekan";
+    color:#f2f2f2;
+    font-size: 13px!important;
+    word-break:break-all;
+    font-weight: normal !important;
+}
+.hotel-one .des-hotel p{
+    word-break:break-all;
+    color: #D1D1D1;
+    font-size: 12px;
+}
+.hotel-one .des-hotel p span{
+    color: white;
+    text-shadow:1px 1px #404000;
+    font-size: 15px;
+}
+.other-hotel .card-title{
+font-size: 12px;
+}
+
+.other-hotel a .material-icons{
+    color: whitesmoke;
+}
+.other-hotel a:hover .material-icons{
+    margin-top: -10px;
+}
+.label{
+    font-size: 15px!important;
+}
+.warning-text{
+    color: rebeccapurple;
+    margin:20px 0px;
+    font-family: "B yekan"!important;
+}
+.btn-create{
+    width: 100%;
+    padding: 10px;
+    background: #9C2771;
+    border: #9C2771;
+}
+.btn-create:hover{
+    background: #9C27A0;
+}
+h1,h2,h3,h4,h5{
+    font-family: "B yekan" !important;
+}
+
+
+.gallery{
+    margin-top: 30px;
+    height: 90vh;
+    background: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: right;
+    padding: 10px;
+
+}
+.gallery .imgall{
+    background: white;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+    width: 250px;
+    height: 170px;
+    position: relative;
+}
+.gallery .imgall .img{
+ position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+
+}
+.gallery .imgall .img img {
+    width: 250px ;
+    height: 170px;
+}
+.gallery .imgall .del-up{
+    position: absolute;
+    top:0;
+    bottom: 0;
+   left: 0;
+    height: 170px;
+    width:70px;
+background: #FFE791;
+    text-align: center;
+    padding-top: 60px;
+display: none;
+}
+
+.gallery .imgall .del-up a{
+
+    text-shadow:0 1px whitesmoke;
+    font-size: 13px!important;
+    font-weight: bold;
+}
+.gallery .imgall .del-up .red{
+    color: red;
+
+}
+.gallery .imgall .del-up .green{
+    color: green;
+
+}
+.gallery .imgall:hover .del-up {
+    display: block;
+}
+.gallery .imgall:hover img{
+    width: 180px;
+}
+
